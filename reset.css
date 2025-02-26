@@ -28,10 +28,16 @@ body{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8rem;
-    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
+    padding: 156px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 img{
     width: 100%;
     height: 100%;
+    display: block;
 }

@@ -1,0 +1,76 @@
+/* Card */
+.card{
+    width: 327px;
+    height: 501px;
+    background-color: var(--neutral-color);
+    padding: 1.5rem;
+    border-radius: 1.3rem;
+    box-shadow: 8px 8px var(--secondary-color-950);
+}
+
+/* Card image Starts */
+.card_image img{
+    border-radius: 0.6rem;
+    margin-bottom: 1.5rem;
+}
+/* Card image Ends */
+
+/* Card Contents Starts */
+    .card_tag{
+        width: 73px;
+        height: 26px;
+        padding: 4px 12px;
+        background-color: var(--primary-color);
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Figtree-ExtraBold";
+        border-radius: 4px;
+        margin-bottom: 0.5rem;
+    }
+    .card_tag strong{
+        font-size: 12px;
+    }
+
+    .card_date p{
+        font-size: 12px;
+        font-family: "Figtree-Medium";
+    }
+    .card_title h1{
+        font-family: "Figtree-ExtraBold";
+        font-size: 20px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+    .card_description p{
+        color: var(--secondary-color-500);
+        font-size: 14px;
+    }
+/* Card Contents Ends */
+
+/* Card Author Starts */
+.card_author{
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.card_author img{
+    width: 32px;
+    height: 32px;
+}
+.card_author strong{
+    font-family: "Figtree-ExtraBold";
+}
+/* Card Author Ends */
+
+
+/* Attribution */
+.attribution{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.attribution a{
+    text-decoration: none;
+}
